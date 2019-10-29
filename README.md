@@ -7,7 +7,7 @@ For detailed instruction's, view Solodev's [How to Add text to your hero sliders
 
 ## Demo
   		  
-Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/rvmgdtos/).
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/rvmgdtos/1/).
 
 ## HTML
 
@@ -16,16 +16,16 @@ The tutorial contains the following basic HTML markup.
 ```
  <header class="hero-text">
 	<div class="hero" data-arrows="true" data-autoplay="true">
-	  <!--.hero-slider-->
-	  <div class="hero-slider">
+	  <!--.hero-slide-->
+	  <div class="hero-slide">
          <img alt="Mars Image" class="img-responsive cover" src="https://raw.githubusercontent.com/solodev/text-dark-overlay-on-hero-sliders/master/images/mars-1.jpg">
          <div class="header-content text-white position-absolute col-lg-4">
             <h1 class="mb-4">Be part of the <span class="d-block font-weight-bold">Lunar XPerience</span></h1>  
             <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Tour Our Ships</a>
          </div>
 	  </div>
-	  <!--.hero-slider-->
-	  <div class="hero-slider">
+	  <!--.hero-slide-->
+	  <div class="hero-slide">
           <img alt="Mars Image" class="img-responsive cover" src="https://raw.githubusercontent.com/solodev/text-dark-overlay-on-hero-sliders/master/images/mars-2.jpg">
           <div class="header-content text-white position-absolute col-lg-4">
                 <h1 class="mb-4">LunarXP Voted Best Mars Mission</h1>  
@@ -33,8 +33,8 @@ The tutorial contains the following basic HTML markup.
                 <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Read More</a>
              </div>
 	  </div>
-	  <!--.hero-slider-->
-	  <div class="hero-slider">
+	  <!--.hero-slide-->
+	  <div class="hero-slide">
           <img alt="Mars Image" class="img-responsive cover" src="https://raw.githubusercontent.com/solodev/text-dark-overlay-on-hero-sliders/master/images/mars-3.jpg">
           <div class="header-content text-white position-absolute col-lg-4">
                 <p class="lead">Our fleet of advanced spacecraft have revolutionized the lunar economy and provided safe travel for thousands of scientists, engineers, technicians, medical staff and civilians. These amazing vessels are also paving the way for reaching Mars in the next decade.</p>  
