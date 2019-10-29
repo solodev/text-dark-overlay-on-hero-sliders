@@ -1,0 +1,96 @@
+header {
+    overflow: hidden;
+}
+
+.hero .slick-arrow {
+  position: absolute;
+  top: 50%;
+  background: url(https://raw.githubusercontent.com/solodev/text-dark-overlay-on-hero-sliders/master/images/arrow.png) center no-repeat;
+  background-color: rgba(0,0,0,0.7);
+  border-color: #777;
+  width: 41px;
+  height: 41px;
+  text-indent: -10000px;
+  z-index: 2;
+  margin-top: -21px;
+  cursor: pointer;
+  padding: 2rem 1rem;
+}
+
+.hero .slick-arrow.slick-next {
+  transform: rotate(180deg);
+}
+
+.hero-text h2 {
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: #5302FE;
+    border: #111;
+    border-radius: 0;
+}
+
+.hero-text .hero {
+  position: relative;
+}
+
+.hero-text .hero .hero-slider a:hover span {
+  color: #033a71;
+}
+
+.hero-text .hero .slick-arrow.slick-next {
+    right: 1rem;
+}
+  
+.hero-text .hero .slick-arrow.slick-prev {
+    left: 1rem;
+}
+
+.hero .hero-slider img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.hero .hero-slider .header-content {
+  top: 20%;
+  margin-left: 8rem;
+  background-color: rgba(0,0,0,0.7);
+  max-width: 473px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.lead {
+font-size: 1.25rem;
+}
+
+.slick-initialized .slick-slide {
+  position: relative;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .hero-text .hero .hero-slider a {
+    padding-top: 0.8rem;
+  }
+
+  .hero-text .hero .hero-slider a span {
+    font-size: 20px;
+    margin-top: 0.5rem;
+  }
+
+  .hero .slick-arrow {
+    height: 50px;
+    width: 50px;
+  }
+  .hero .hero-slider .header-content {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+  }
+}
